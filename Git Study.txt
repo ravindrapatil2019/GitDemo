@@ -1,0 +1,96 @@
+
+GIt introduction
+Git installation
+
+Git - Three stage architecture
+
+commit + comment
+
+Working directory 
+
+staging area (files for commit)
+
+git directory(repository)
+
+Convert folder to git folder
+commands
+
+ git config --global user.email "you@example.com"
+ git config --global user.name "Your Name"
+
+
+git status - check git folder status
+git init - intialize folder as a git repository
+git add --a - add all files to staging area
+
+git add .
+
+git commit -m "Initial commit"
+
+git add first.txt
+
+git commit -m "Add.txt is modified"
+
+rm -rf .git - remove folder from git tracking
+
+pwd - present working directory
+ls - list
+cd
+
+git clone "repository path" folder name
+
+folder name is optional
+
+
+File status LifeCycle
+
+
+
+gitignore
+
+touch error.log
+touch .gitignore
+
+
+*.log
+
+
+
+git diff - compare stating area and working directory
+
+git diff --stage
+
+compare last commit with staging area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
